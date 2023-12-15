@@ -9,6 +9,10 @@ function App() {
 
   // Random Change
 
+  const doesNothing = () => {
+    console.log('does nothing')
+  }
+  
   return (
     <>
       <div>
