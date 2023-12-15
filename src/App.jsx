@@ -6,6 +6,10 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const doesNothing = () => {
+    console.log('does nothing')
+  }
+  
   return (
     <>
       <div>
